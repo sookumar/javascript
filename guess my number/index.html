@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="top">
+      <button id="right">
+        <h3>Again!</h3>
+      </button>
+      <div id="left">
+        <p>(Between 1 and 20)</p>
+      </div>
+    </div>
+
+    <h1>Guess My Number!</h1>
+
+    <div class="box">
+      <p>?</p>
+    </div>
+    <div id="main">
+      <div id="leftmain">
+        <input type="number" id="leftmainbox" />
+
+        <button id="leftmaintext">Check!</button>
+      </div>
+      <div id="rightmain">
+        <div id="rightmainbox">Start guessing...</div>
+
+        <div id="rightmaintext">
+          <p>Score:</p>
+          <span id="score">20</span>
+          <p>Highscore:</p>
+          <span id="highscore">0</span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

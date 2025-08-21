@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #222;
+  font-family: "Press Start 2P", cursive;
+}
+
+#top {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#top #left {
+  /* background-color: aqua; */
+  height: 15px;
+  padding-right: 10px;
+  margin: 10px;
+  color: white;
+}
+#top #right {
+  margin: 10px;
+  height: inherit;
+  background-color: white;
+  font-family: "Press Start 2P";
+}
+#top #right h3 {
+  background-color: white;
+  height: 40px;
+  width: 100px;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding-bottom: 60px;
+  color: white;
+  border-bottom: solid white 5px;
+  margin-top: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: white;
+  height: 80px;
+  width: 98px;
+  position: absolute;
+  left: 45%;
+}
+.box p {
+  align-self: center;
+  background-color: white;
+  font-size: 40px;
+}
+#main {
+  display: flex;
+  /* background-color: aqua; */
+  margin-top: 50px;
+  height: 471px;
+}
+#leftmain {
+  /* background-color: chocolate; */
+  height: 471px;
+  width: 70%;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#leftmainbox {
+  /* background-color: bisque; */
+  margin-top: 125px;
+  height: 30px;
+  width: 120px;
+  padding: 30px;
+  border: none;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+}
+#leftmaintext {
+  background-color: white;
+  height: 50px;
+  width: 160px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-family: "Press Start 2P";
+}
+#rightmain {
+  /* background-color: blueviolet; */
+  height: 471px;
+  width: 30%;
+  color: white;
+}
+#rightmainbox {
+  /* background-color: brown; */
+  height: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+#rightmaintext {
+  height: 50%;
+  /* background-color: rgb(35, 75, 35); */
+  font-size: 15px;
+}
+
+#rightmaintext p {
+  padding-bottom: 15px;
+  display: inline-block;
+}
